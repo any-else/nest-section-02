@@ -1,1 +1,12 @@
-[{"username":"bui van vu","email":"test@gmail.com","password":"demo nestjs02"},{"username":"rikei","email":"test@gmail.com","password":"demo nestjs02"}]
+[
+  {
+    "username": "bui van vu",
+    "email": "test@gmail.com",
+    "password": "demo nestjs02"
+  },
+  {
+    "username": "rikei",
+    "email": "test@gmail.com",
+    "password": "demo nestjs02"
+  }
+]

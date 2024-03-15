@@ -17,4 +17,20 @@ export class UserService {
   getAll() {
     return this.userRepository.find();
   }
+
+  getById(name: string) {
+    return this.userRepository.findOne(name);
+  }
+
+  updateUser(id: string, user) {
+    return this.userRepository.update(id, user);
+  }
+
+  deleteUser(id: string) {
+    return this.userRepository.delete(id);
+  }
+
+  searchUser(q) {
+    return this.userRepository.search(q);
+  }
 }
